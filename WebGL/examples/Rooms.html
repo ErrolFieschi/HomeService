@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FloconHome - Exemple de préstation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<script type="module">
+
+    import * as THREE from '../build/three.module.js';
+    import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
+    import { OrbitControls } from './jsm/controls/OrbitControls.js';
+    import { FBXLoader } from './jsm/loaders/FBXLoader.js';
+
+    var container, stats, controls;
+    var camera, scene, renderer, light;
+
+    var clock = new THREE.Clock();
+
+    var mixer;
+
+    init();
+    animate();
+
+    function init() {
+
+        container = document.createElement( 'div' );
+        document.body.appendChild( container );
+
+        camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
+        camera.position.set( 100, 200, 300 );
+
+        scene = new THREE.Scene();
+        scene.background = new THREE.Color( 0xffffff );
+        scene.fog = new THREE.Fog( 0xa0a0a0, 1000, 1000 );
+
+        light = new THREE.HemisphereLight( 0xffffff, 0x444444 );
+        light.position.set( 0, 200, 0 );
+        scene.add( light );
+
+        light = new THREE.DirectionalLight( 0xffffff );
+        light.position.set( 0, 200, 100 );
+        light.castShadow = true;
+        light.shadow.camera.top = 180;
+        light.shadow.camera.bottom = - 100;
+        light.shadow.camera.left = - 120;
+        light.shadow.camera.right = 120;
+        scene.add( light );
+
+        // scene.add( new CameraHelper( light.shadow.camera ) );
+
+        // model
+        var loaderChara = new FBXLoader();
+        loaderChara.load( 'models/fbx/Searching Files High.fbx', function ( objectChara ) {
+            objectChara.scale.set(0.01, 0.01, 0.01);
+            objectChara.rotateY(135);
+            objectChara.position.set(-0.6, 0, -0.2);
+            mixer = new THREE.AnimationMixer( objectChara );
+
+            var actionChara = mixer.clipAction( objectChara.animations[ 0 ] );
+            actionChara.play();
+
+            objectChara.traverse( function ( childChara ) {
+
+                if ( childChara.isMesh ) {
+
+                    childChara.castShadow = true;
+                    childChara.receiveShadow = true;
+
+                }
+            } );
+
+            scene.add( objectChara );
+
+        } );
+
+        var loaderScene = new GLTFLoader();
+        loaderScene.load(
+            // resource URL
+            'models/gltf/Rooms/scene.gltf',
+            // called when the resource is loaded
+            function ( gltf ) {
+
+                scene.add( gltf.scene );
+
+                gltf.animations; // Array<THREE.AnimationClip>
+                gltf.scene; // THREE.Group
+                gltf.scenes; // Array<THREE.Group>
+                gltf.cameras; // Array<THREE.Camera>
+                gltf.asset; // Object
+                scene.scale.set(20,20,20);
+                scene.rotateY(45);
+
+            },
+            // called while loading is progressing
+            function ( xhr ) {
+
+                console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+
+            },
+            // called when loading has errors
+            function ( error ) {
+
+                console.log( 'An error happened' );
+
+            }
+        );
+
+        renderer = new THREE.WebGLRenderer( { antialias: true } );
+        renderer.setPixelRatio( window.devicePixelRatio );
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        renderer.shadowMap.enabled = true;
+        container.appendChild( renderer.domElement );
+
+        controls = new OrbitControls( camera, renderer.domElement );
+        controls.update();
+
+        window.addEventListener( 'resize', onWindowResize, false );
+
+    }
+
+    function onWindowResize() {
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize( window.innerWidth, window.innerHeight );
+
+    }
+
+    //
+
+    function animate() {
+
+        requestAnimationFrame( animate );
+
+        var delta = clock.getDelta();
+
+        if ( mixer ) mixer.update( delta );
+
+        renderer.render( scene, camera );
+    }
+
+</script>
+
+</body>
+</html>

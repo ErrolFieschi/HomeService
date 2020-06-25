@@ -1,0 +1,94 @@
+.calendar__table{
+    width: 100%;
+    height: calc(100vh - 128px);
+}
+
+.calendar__table td{
+    padding: 10px;
+    border: 10px solid white;
+    vertical-align: top;
+    width: 14.29%;
+    height: 20%;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: #91919124;
+}
+
+.calendar__table--6weeks td{
+    height: 16.66%;
+    background-color: #91919124;
+}
+
+.calendar__weekday{
+    color: #828282c7;
+    font-size: 1em;
+    display: inline-block;
+    float: left;
+    width: 14.2%;
+}
+
+.calendar__othermonth .calendar__day{
+    opacity: 0.6;
+    color: #6c6c6c82;
+}
+
+.calendar__othermonth {
+    opacity: 0.4;
+    color: #6c6c6c82;
+    background-color: white;
+}
+
+.calendar__day{
+    /*font-size: 1.3em;*/
+    /*color: #6e0d8dc7;*/
+
+    font-size: 13px;
+    color: #707070;
+    font-weight: 300;
+    display: block;
+    opacity: 1;
+    text-align: left;
+    /*font-weight: bold;*/
+}
+.calendar__a{
+    color: white;
+    text-decoration: none;
+    background-color: #629ca5;
+    border-radius: 13px;
+    padding: 1px 4px 2px 4px;
+    text-decoration: none !important;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.calendar__a:hover{
+    color: white;
+    background-color: #629ca5eb;
+}
+
+.calendar__title{
+    font-size: 2.5rem;
+    margin-left: -16px;
+    color: #9b9a9b47;
+}
+
+.calendar-btn{
+    border-color: #629ca5 !important;
+    background-color: #629ca5 !important;
+}
+
+.calendar-btn:hover{
+    border-color: #6daab3 !important;
+    background-color: #6daab3 !important;
+}
+
+.calendar__global{
+    text-align: left;
+
+}
+
+.calendar__description{
+    text-align: left !important;
+    padding-top: 27px;
+    margin-bottom: -14px;
+}

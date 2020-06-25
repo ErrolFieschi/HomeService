@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FloconHome\n"
+"POT-Creation-Date: 2020-04-08 13:57+0200\n"
+"PO-Revision-Date: 2020-04-08 13:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: index.php\n"
+"X-Poedit-SearchPath-1: includes/mep/header.php\n"
+"X-Poedit-SearchPath-2: historic.php\n"
+"X-Poedit-SearchPath-3: login.php\n"
+"X-Poedit-SearchPath-4: notification.php\n"
+"X-Poedit-SearchPath-5: planning.php\n"
+"X-Poedit-SearchPath-6: register.php\n"
+"X-Poedit-SearchPath-7: subscription.php\n"
+"X-Poedit-SearchPath-8: includes/mep/footer.php\n"
+
+#: historic.php:83
+msgid "Historique des Prestations"
+msgstr "Historic of prestation"
+
+#: historic.php:91
+msgid "Service"
+msgstr "Service"
+
+#: historic.php:92
+msgid "Prestataire"
+msgstr "Provider"
+
+#: historic.php:93
+msgid "Date"
+msgstr "Date"
+
+#: historic.php:94
+msgid "Horaire"
+msgstr "Schedule"
+
+#: historic.php:95
+msgid "Tarif"
+msgstr "Price"
+
+#: historic.php:96
+msgid "Actions"
+msgstr "Actions"
+
+#: historic.php:103
+msgid "Aucune prestation"
+msgstr "No presation"
+
+#: historic.php:124
+msgid "Faire appel à nouveau à ce service"
+msgstr "Re-use this service"
+
+#: historic.php:127
+msgid "Facture"
+msgstr "Invoice"
+
+#: includes/mep/footer.php:5
+msgid "Merci d'utiliser Flocon Home!"
+msgstr "Thank you for using Flocon Home!"
+
+#: includes/mep/footer.php:6
+msgid "Restez en contact avec nous sur les réseaux sociaux"
+msgstr "Stay in touch with us on social media"
+
+#: includes/mep/footer.php:9
+msgid "Choix de la langue"
+msgstr "Choice of language"
+
+#: includes/mep/header.php:50
+msgid "Mon compte"
+msgstr "My account"
+
+#: includes/mep/header.php:59
+msgid "Profil"
+msgstr "Profile"
+
+#: includes/mep/header.php:67
+msgid "Mon historique"
+msgstr "My historic"
+
+#: includes/mep/header.php:75
+msgid "Mon planning"
+msgstr "My schedule"
+
+#: includes/mep/header.php:76
+msgid "Suivez vos prochains rendez-vous !"
+msgstr "Follow your next meetings !"
+
+#: includes/mep/header.php:85
+msgid "Déconnexion"
+msgstr "Logout"
+
+#: includes/mep/header.php:92 login.php:88
+msgid "Connexion"
+msgstr "Login"
+
+#: includes/mep/header.php:121
+msgid "Demande en attente"
+msgstr "Pending request"
+
+#: includes/mep/header.php:122
+msgid "Votre préstation du"
+msgstr "Your service from"
+
+#: includes/mep/header.php:122
+msgid " est en attente d\\'acceptation par l\\'équipe de Flocon Home"
+msgstr " is it is on standby and will be accepted soon by a staff"
+
+#: includes/mep/header.php:128
+msgid "Demande accepté"
+msgstr "Request accepted"
+
+#: includes/mep/header.php:129 includes/mep/header.php:136
+msgid "Votre préstation du "
+msgstr "Your service from "
+
+#: includes/mep/header.php:129
+msgid " a été accepté par le staff de Flocon Home et sera effectué par "
+msgstr " has been accepted by Flocon Home staff and will be carried out by "
+
+#: includes/mep/header.php:135
+msgid "Demande refusé"
+msgstr "Request refused"
+
+#: includes/mep/header.php:136
+msgid ""
+" a été refusé par l\\'équipe de Flocon Home. Vous allez être contacté par "
+"téléphone afin de régulariser la situation"
+msgstr ""
+" was refused by the our team. You will be contacted by phone to regularize "
+"the situation"
+
+#: index.php:63
+msgid "Un concierge à"
+msgstr "A concierge at"
+
+#: index.php:63
+msgid "votre service 24H sur 24 !"
+msgstr "your service 24 hours a day !"
+
+#: index.php:64
+msgid ""
+"Rejoignez la plus grande plateforme de service en vous inscrivant sur Flocon "
+"Home !"
+msgstr "Join the largest service platform by registering on Flocon Home !"
+
+#: index.php:68
+msgid "Nous rejoindre"
+msgstr "Join us"
+
+#: index.php:72
+msgid "Bienvenue"
+msgstr "Welcome"
+
+#: index.php:84
+msgid ""
+"Profitez de votre abonnement pour souscrire à un service sur Flocon Home !"
+msgstr ""
+"Take advantage of your subscription to subscribe to a service on Flocon "
+"Home !"
+
+#: index.php:88
+msgid "Souscire"
+msgstr "Subscribe"
+
+#: index.php:92
+msgid ""
+"Vous n'êtes pas abonné ! Rejoignez l'expérience Flocon Home en cliquant sur "
+"le bouton ci-dessous"
+msgstr ""
+"You are not a subscriber ! Join the Flocon Home experience by clicking on "
+"the button below"
+
+#: index.php:96
+msgid "S'abonner"
+msgstr "Subscribe"
+
+#: index.php:126
+msgid "Philosophie"
+msgstr "Philosophy"
+
+#: index.php:127
+msgid ""
+"La conciergerie est un vieux métier, noble, secret que nous avons modernisé "
+"sans dénaturer son essence originelle faite d’efficacité absolue et "
+"discrétion."
+msgstr ""
+"The concierge is an old, noble, secret profession that we have modernized "
+"without distorting its original essence made of absolute efficiency and "
+"discretion."
+
+#: index.php:137
+msgid "Expertise"
+msgstr "Expertise"
+
+#: index.php:138
+msgid ""
+"Nos membres bénéficient en permanence de toutes les ressources de Flocon "
+"Home où qu’ils se trouvent sur la planète et quelles que soient leurs "
+"demandes."
+msgstr ""
+"Our members always benefit from all the resources of Flocon Home wherever "
+"they are on the planet and whatever their requests."
+
+#: index.php:148
+msgid "Professionnalisme"
+msgstr "Professionalism"
+
+#: index.php:149
+msgid ""
+"Nos concierges, véritables orfèvres du métier et notre réseau exceptionnel "
+"de partenaires, nous permettent de répondre à n’importe quelle requête."
+msgstr ""
+"Our concierges, true goldsmiths of the trade and our exceptional network of "
+"partners, allow us to respond to any request."
+
+#: index.php:173
+msgid "Notre gamme"
+msgstr "Our range"
+
+#: index.php:173
+msgid "de service élite"
+msgstr "of Elite service"
+
+#: index.php:174
+msgid ""
+"Flocon Home est un service de haute conciergerie privée à destination d’une "
+"clientèle haut de gamme, exigeante, pressée, à qui nous offrons "
+"l’excellence, la perfection et le sur-mesure."
+msgstr ""
+"Flocon Home is a private high concierge service for a high-end clientele, "
+"demanding, in a hurry, to whom we offer excellence, perfection and tailor-"
+"made."
+
+#: index.php:184
+msgid "Accès privilégié en illimité 7j/7 24h/24"
+msgstr "Privileged unlimited access 24/7"
+
+#: index.php:196
+msgid "Demandes illimitées de renseignements"
+msgstr "Unlimited requests for information"
+
+#: index.php:208
+msgid "50h de services par mois"
+msgstr "50h of services per month"
+
+#: index.php:220
+msgid "De nombreux services proposés"
+msgstr "Many services offered"
+
+#: index.php:246
+msgid "Work friendly"
+msgstr "Work friendly"
+
+#: index.php:247
+msgid ""
+"Que vous soyez au travail ou en vacance, Flocon Home reste toujours aussi "
+"proche de vous depuis notre plateforme web simple d'utilisation."
+msgstr ""
+"Whether you are at work or on vacation, Flocon Home is always close to you "
+"from our easy-to-use web platform."
+
+#: index.php:259
+msgid "Plateforme web"
+msgstr "Web plateform"
+
+#: index.php:260
+msgid ""
+"Flocon Home a été optimisé pour le web afin de répondre au mieux à vos "
+"besoins. Nos nombreux partenariats rendent votre vie plus simple au "
+"quotidien."
+msgstr ""
+"Flocon Home has been optimized for the web to best meet your needs. Our many "
+"partnerships make your daily life easier."
+
+#: login.php:58
+msgid "Vous êtes nouveau ?"
+msgstr "Are you new?"
+
+#: login.php:62
+msgid "Inscrivez-vous"
+msgstr "Sign up"
+
+#: login.php:68
+msgid "Ou connectez-vous avec votre adresse mail"
+msgstr "Or log in with your email address"
+
+#: login.php:76 register.php:109
+msgid "Email"
+msgstr "Mail"
+
+#: login.php:84 register.php:137 register.php:143
+msgid "Mot de passe"
+msgstr "Password"
+
+#: planning.php:140
+msgid "DETAILS DE LA PRESTATION"
+msgstr "SERVICE DETAILS"
+
+#: planning.php:142
+msgid "Intervention chez:"
+msgstr "Intervention at:"
+
+#: planning.php:143
+msgid "Adresse d'intervention:"
+msgstr "Intervention address:"
+
+#: planning.php:144
+msgid "Intervenant:"
+msgstr "Provider:"
+
+#: planning.php:146
+msgid "DESCRIPTION DE LA PRESTATION"
+msgstr "DESCRIPTION OF SERVICE"
+
+#: planning.php:151
+msgid "Rendez vous le "
+msgstr "Appointment on "
+
+#: register.php:75
+msgid "Déjà membre ?"
+msgstr "Already a member ?"
+
+#: register.php:79
+msgid "Connectez-vous"
+msgstr "Log in"
+
+#: register.php:85
+msgid "Ou inscrivez-vous, c'est simple et rapide"
+msgstr "Or sign up, it's quick and easy"
+
+#: register.php:93
+msgid "Nom"
+msgstr "Last name"
+
+#: register.php:101
+msgid "Prénom"
+msgstr "Firstname"
+
+#: register.php:117
+msgid "Télephone"
+msgstr "Phone"
+
+#: register.php:125
+msgid "Adresse"
+msgstr "Address"
+
+#: register.php:133
+msgid "Code postal"
+msgstr "Postal code"
+
+#: register.php:138
+msgid "Minimum 8 caractères, 1 minuscule, 1 majuscule et 1 chiffre"
+msgstr "Minimum 8 characters, 1 lower case, 1 upper case and 1 digit"
+
+#: register.php:147
+msgid "Agence de référence"
+msgstr "Reference agency"
+
+#: subscription.php:80
+msgid "Classique"
+msgstr "Classic"
+
+#: subscription.php:81 subscription.php:97 subscription.php:112
+msgid "Accès privilégié en illimité "
+msgstr "Unlimited privileged access "
+
+#: subscription.php:81
+msgid "5j/7 de 9h à 20h"
+msgstr "5 days a week from 9 a.m. to 8 p.m."
+
+#: subscription.php:81 subscription.php:97 subscription.php:112
+msgid "Demandes "
+msgstr "Requests "
+
+#: subscription.php:81 subscription.php:97 subscription.php:112
+msgid "illimitées"
+msgstr "unlimited"
+
+#: subscription.php:81 subscription.php:97 subscription.php:112
+msgid " de renseignements"
+msgstr " of informations"
+
+#: subscription.php:81 subscription.php:97
+msgid " de services/mois"
+msgstr " of services / month"
+
+#: subscription.php:84
+msgid "2400€ TTC /an"
+msgstr "2400€ TTC /year"
+
+#: subscription.php:86 subscription.php:101 subscription.php:116
+msgid "Souscrire"
+msgstr "Subscribe"
+
+#: subscription.php:96
+msgid "Premium"
+msgstr "Premium"
+
+#: subscription.php:97
+msgid "6j/7 de 9h à 20h"
+msgstr "6 days a week from 9 a.m. to 8 p.m."
+
+#: subscription.php:99
+msgid "3600€ TTC /an "
+msgstr "3600€ TTC /year "
+
+#: subscription.php:111
+msgid "Elite"
+msgstr "Elite"
+
+#: subscription.php:112
+msgid "7j/7 de 9h à 20h"
+msgstr "7 days a week from 9 a.m. to 8 p.m."
+
+#: subscription.php:112
+msgid " de services/mois "
+msgstr " of services / month "
+
+#: subscription.php:114
+msgid "6000€ TTC /an"
+msgstr "6000€ TTC /year"

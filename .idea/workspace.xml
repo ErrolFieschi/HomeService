@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13d3cf5f-3c42-40f4-8978-3ab8bc944454" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Form/addProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Form/addProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form/select_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/Form/select_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/ajoutPrestataire.php" beforeDir="false" afterPath="$PROJECT_DIR$/administration/ajoutPrestataire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/assign_provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/administration/assign_provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funnel/paymentPresta.php" beforeDir="false" afterPath="$PROJECT_DIR$/funnel/paymentPresta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funnel/presta_charge.php" beforeDir="false" afterPath="$PROJECT_DIR$/funnel/presta_charge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/search_ajax.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Errol" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1Z1SGt6XQP0QiTDHnjeQrmR7GvH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\FloconHome\FloconHome\funnel" />
+      <recent name="C:\wamp64\www\FloconHome\FloconHome\administration\provider\src" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13d3cf5f-3c42-40f4-8978-3ab8bc944454" name="Default Changelist" comment="" />
+      <created>1584005014894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584005014894</updated>
+      <workItem from="1584005016657" duration="32785000" />
+      <workItem from="1584285410088" duration="11827000" />
+      <workItem from="1584368010590" duration="8261000" />
+      <workItem from="1584721933696" duration="56147000" />
+      <workItem from="1585127720994" duration="49437000" />
+      <workItem from="1585758271312" duration="4219000" />
+      <workItem from="1585826193016" duration="3864000" />
+      <workItem from="1586269407564" duration="2764000" />
+      <workItem from="1586276857908" duration="109078000" />
+      <workItem from="1587044588868" duration="867000" />
+      <workItem from="1587333824567" duration="1259000" />
+      <workItem from="1587897489402" duration="650000" />
+      <workItem from="1588358545797" duration="2201000" />
+      <workItem from="1588778342989" duration="32964000" />
+      <workItem from="1588843829385" duration="11334000" />
+    </task>
+    <task id="LOCAL-00001" summary="[PAYMENT] ADD PAYMENT FILES">
+      <created>1584098835873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584098835873</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[PAYMENT] ADD PAYMENT FILES">
+      <created>1584098948405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584098948405</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[PAYMENT] SET FUNNEL PAYMENT">
+      <created>1584206158209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584206158209</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[PAYMENT] SET FUNNEL PAYMENT">
+      <created>1584278812425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584278812425</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[PAYMENT] SET FUNNEL PAYMENT">
+      <created>1584282863826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584282863827</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[PAYMENT] OPTIMIZE SQL REQUEST FOR STRIPE">
+      <created>1584322269185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584322269185</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[SUBSCRIPTION] OPTIMIZE SUBSCRIBER">
+      <created>1584380432810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584380432811</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[NOTIFICATION] ADD NOTIFICATION MODULE WITH AJAX">
+      <created>1584891719819</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584891719819</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[NOTIFICATION] ADD NOTIFICATION MODULE WITH AJAX MAJ">
+      <created>1584991728395</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584991728396</updated>
+    </task>
+    <task id="LOCAL-00010" summary="PUSH">
+      <created>1584992403106</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584992403106</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[PLANNING] ADD PLANNER FOR PROVIDER">
+      <created>1585046279734</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585046279734</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[CALENDAR] FINISH CALENDAR">
+      <created>1585070184206</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585070184206</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[CALENDAR] FINISH CALENDAR">
+      <created>1585071458008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585071458008</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[CALENDAR] UDPATE CALENDAR">
+      <created>1585146355063</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585146355063</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[CALENDAR] FINISH CALENDAR">
+      <created>1585216967234</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585216967234</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[CALENDAR] UPDATE CALENDAR">
+      <created>1585239442517</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585239442517</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[PAYMENT ERROR] RESOLVE PAYMENT ERROR">
+      <created>1586276304315</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586276304316</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[PAYMENT] RESOLVE PAYMENT ERROR">
+      <created>1586276879404</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1586276879404</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[TRANSLATE] ADD TRANSLATE PART">
+      <created>1586357435795</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1586357435795</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[ERROR]">
+      <created>1586358122820</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586358122820</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[ERROR]">
+      <created>1586358630772</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586358630772</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[SUBSCRIPTION] ADD MONTHLY PAIEMENT WITHOUT CHECK">
+      <created>1586471780403</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586471780403</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[SUBSCRIPTION] ADD MONTHLY PAIEMENT WITHOUT CHECK">
+      <created>1586476608527</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586476608527</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[PAYMENT] ADD STRIPE SECURITY CHECK">
+      <created>1586476655163</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1586476655163</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[SUBSCRIPTION] SHOW SUBSCRIPTION DETAILS IN ACCOUNT MENU">
+      <created>1586533679141</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586533679141</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[UNSUBSCRIPTION] ADD UNSUBSCRIBE OPTION">
+      <created>1586536042934</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586536042934</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[ADMINISTRATION] CREATE SUBSCRIPTION ADMIN">
+      <created>1586719064694</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586719064694</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[ADMINISTRATION] SUBSCRIPTION WITH AJAX">
+      <created>1586801533713</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586801533713</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[ADMINISTRATION] SUBSCRIPTION WITH AJAX">
+      <created>1586805036191</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1586805036191</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[PAYMENT] PAYMENT MAJ FOR PRESTATION">
+      <created>1588845433698</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1588845433698</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="hash">
+                    <value>
+                      <list>
+                        <option value="9cb1e9ddfe38fcbcefa693d7e357164f6b2fffa2" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="9cb1e9ddfe38fcbcefa693d7e357164f6b2fffa2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[PAYMENT] ADD PAYMENT FILES" />
+    <MESSAGE value="[PAYMENT] SET FUNNEL PAYMENT" />
+    <MESSAGE value="[PAYMENT] OPTIMIZE SQL REQUEST FOR STRIPE" />
+    <MESSAGE value="[SUBSCRIPTION] OPTIMIZE SUBSCRIBER" />
+    <MESSAGE value="[NOTIFICATION] ADD NOTIFICATION MODULE WITH AJAX" />
+    <MESSAGE value="[NOTIFICATION] ADD NOTIFICATION MODULE WITH AJAX MAJ" />
+    <MESSAGE value="TRY" />
+    <MESSAGE value="PUSH" />
+    <MESSAGE value="[PLANNING] ADD PLANNER FOR PROVIDER" />
+    <MESSAGE value="[CALENDAR] UDPATE CALENDAR" />
+    <MESSAGE value="[CALENDAR] FINISH CALENDAR" />
+    <MESSAGE value="[CALENDAR] UPDATE CALENDAR" />
+    <MESSAGE value="[PAYMENT ERROR] RESOLVE PAYMENT ERROR" />
+    <MESSAGE value="[PAYMENT] RESOLVE PAYMENT ERROR" />
+    <MESSAGE value="[TRANSLATE] ADD TRANSLATE PART" />
+    <MESSAGE value="[ERROR]" />
+    <MESSAGE value="[SUBSCRIPTION] ADD MONTHLY PAIEMENT WITHOUT CHECK" />
+    <MESSAGE value="[PAYMENT] ADD STRIPE SECURITY CHECK" />
+    <MESSAGE value="[SUBSCRIPTION] SHOW SUBSCRIPTION DETAILS IN ACCOUNT MENU" />
+    <MESSAGE value="[UNSUBSCRIPTION] ADD UNSUBSCRIBE OPTION" />
+    <MESSAGE value="[ADMINISTRATION] CREATE SUBSCRIPTION ADMIN" />
+    <MESSAGE value="[ADMINISTRATION] SUBSCRIPTION WITH AJAX" />
+    <MESSAGE value="[PAYMENT] PAYMENT MAJ FOR PRESTATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PAYMENT] PAYMENT MAJ FOR PRESTATION" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" width="814" height="728" key="#Intentions" timestamp="1586277214098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" width="814" height="728" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1586277214098" />
+    <state x="361" y="72" key="#SQL_Dialects" timestamp="1584320474782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1584320474782" />
+    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585047772873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585047772873" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585830548254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585830548254" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1588845432654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588845432654" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1587897537476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587897537476" />
+    <state x="147" y="71" key="MergeDialog" timestamp="1588850628250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="71" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1588850628250" />
+    <state x="481" y="129" key="MultipleFileMergeDialog" timestamp="1588850628262">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="481" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1588850628262" />
+    <state x="504" y="228" key="NewPhpClassDialog" timestamp="1585048099875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="504" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1585048099875" />
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1588841362822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1588841362822" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1588845436865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588845436865" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588850346851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1588850346851" />
+    <state x="550" y="126" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584992361526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="126" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1584992361526" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1586778139011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586778139011" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588856748066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588856748066" />
+  </component>
+</project>
